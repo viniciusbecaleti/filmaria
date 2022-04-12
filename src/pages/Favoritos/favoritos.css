@@ -1,0 +1,49 @@
+.favoritos-content {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.favoritos-lista {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.favoritos-lista li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
+.favoritos-lista span {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.favoritos-lista .botao {
+  display: inline-block;
+  margin-left: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: normal;
+  outline: none;
+  padding: 12px;
+  font-size: 16px;
+  color: #333;
+  background: #eee;
+  transition: 0.2s;
+}
+
+.favoritos-lista .botao:hover {
+  background-color: brown;
+  color: #fff;
+}
